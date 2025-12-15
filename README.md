@@ -1,18 +1,25 @@
-# Thomas-mauran Tap
+# 🍺 thomas-mauran/tap
 
-## How do I install these formulae?
+A personal [Homebrew](https://brew.sh) tap providing CLI tools maintained by **Thomas Mauran**.
 
-`brew install thomas-mauran/tap/<formula>`
+Currently available formulae focus on fast, lightweight terminal applications written in Rust 🦀.
 
-Or `brew tap thomas-mauran/tap` and then `brew install <formula>`.
+---
 
-Or, in a `brew bundle` `Brewfile`:
+## 📦 Available Formulae
 
-```ruby
-tap "thomas-mauran/tap"
-brew "<formula>"
-```
+### ♟️ chess-tui
+Play chess directly from your terminal with a clean TUI interface.
 
-## Documentation
+- Repository: https://github.com/thomas-mauran/chess-tui
+- Platforms:
+  - macOS (Apple Silicon & Intel)
+  - Linux (x86_64 & ARM64)
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+---
+
+## 🚀 Installation
+
+### Install a single formula (recommended)
+```bash
+brew install thomas-mauran/tap/chess-tui
