@@ -1,27 +1,27 @@
 class ChessTui < Formula
   desc "Play chess from your terminal 🦀"
   homepage "https://github.com/thomas-mauran/chess-tui"
-  version "2.4.0"
+  version "2.5.1"
   license "MIT"
   head "https://github.com/thomas-mauran/chess-tui.git", branch: "main"
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.4.0/chess-tui-2.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6272975ec82a4dc107940328e002fdc62a9f2b0ef907670ad5f51387c7f021c3"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.1/chess-tui-2.5.1-aarch64-apple-darwin.tar.gz"
+      sha256 "7aa537471862659bd2885f5edfaad8573587e8db18fa89275b745dc86001e947"
     else
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.4.0/chess-tui-2.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "65bf66dec20a5a621d6ff9e1f085606a4868ae1d6a7dbf68a8d261e45f8fb22d"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.1/chess-tui-2.5.1-x86_64-apple-darwin.tar.gz"
+      sha256 "72405f7150eb23c49de8496bd085e5fd29d4ffce11b58234f329e3518e3e1de4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.4.0/chess-tui-2.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "95140471f334bf63e5b0d467f4f3d79ae685b11a9f8f03cfabff3eb63ba93009"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.1/chess-tui-2.5.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0d84a6cf934734df6ef1eafa2215ec372c5d485e9344149e3a223a8911d8bcfa"
     else
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.4.0/chess-tui-2.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5e54243ee239fec4bc6f70d3671faac2991ca2546197ec0c1c2811be3dc313a6"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.1/chess-tui-2.5.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "203afcc08972698e40f007bc6da2ae517fd9dd69a606fa8a344803ec6ba56e80"
     end
   end
 
