@@ -1,27 +1,27 @@
 class ChessTui < Formula
-  desc "Play chess from your terminal 🦀"
+  desc "Play chess in your terminal 🦀"
   homepage "https://github.com/thomas-mauran/chess-tui"
-  version "2.5.1"
+  version "2.6.2"
   license "MIT"
   head "https://github.com/thomas-mauran/chess-tui.git", branch: "main"
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.1/chess-tui-2.5.1-aarch64-apple-darwin.tar.gz"
-      sha256 "7aa537471862659bd2885f5edfaad8573587e8db18fa89275b745dc86001e947"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.6.2/chess-tui-2.6.2-aarch64-apple-darwin.tar.gz"
+      sha256 "fb86cb7b774506ccc9ca657ad2f573abd086d20d0f0e3a95c253258667f3f863"
     else
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.1/chess-tui-2.5.1-x86_64-apple-darwin.tar.gz"
-      sha256 "72405f7150eb23c49de8496bd085e5fd29d4ffce11b58234f329e3518e3e1de4"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.6.2/chess-tui-2.6.2-x86_64-apple-darwin.tar.gz"
+      sha256 "951c3cb7ba5968cc6d95e12f8b59e60626b3ecb73d1f922b493590eb4476db3a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.1/chess-tui-2.5.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0d84a6cf934734df6ef1eafa2215ec372c5d485e9344149e3a223a8911d8bcfa"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.6.2/chess-tui-2.6.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "92768f3b3407c4c883143484b6647852ac2bf993bfa73643e346302a27196786"
     else
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.1/chess-tui-2.5.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "203afcc08972698e40f007bc6da2ae517fd9dd69a606fa8a344803ec6ba56e80"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.6.2/chess-tui-2.6.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9f61c585b4eb71c502ba0180c6fda215f9fad78cde388be477ff82a50971f185"
     end
   end
 
