@@ -1,27 +1,27 @@
 class ChessTui < Formula
   desc "Play chess in your terminal 🦀"
   homepage "https://github.com/thomas-mauran/chess-tui"
-  version "2.6.2"
+  version "2.7.0"
   license "MIT"
   head "https://github.com/thomas-mauran/chess-tui.git", branch: "main"
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.6.2/chess-tui-2.6.2-aarch64-apple-darwin.tar.gz"
-      sha256 "fb86cb7b774506ccc9ca657ad2f573abd086d20d0f0e3a95c253258667f3f863"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.0/chess-tui-2.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "466c065c8a7760ba8156c8a1f77562ad80133edfff1c7f0516722972a4af542d"
     else
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.6.2/chess-tui-2.6.2-x86_64-apple-darwin.tar.gz"
-      sha256 "951c3cb7ba5968cc6d95e12f8b59e60626b3ecb73d1f922b493590eb4476db3a"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.0/chess-tui-2.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "774d1c2df8037c489a7fd345e50d23f35e54feb8b11fa6db381ecb850ec1a460"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.6.2/chess-tui-2.6.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "92768f3b3407c4c883143484b6647852ac2bf993bfa73643e346302a27196786"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.0/chess-tui-2.7.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f2984a58be6ee03e034e625b3373e8df378680b75cccaea6436c8a1c11b3c7df"
     else
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.6.2/chess-tui-2.6.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9f61c585b4eb71c502ba0180c6fda215f9fad78cde388be477ff82a50971f185"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.0/chess-tui-2.7.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bd03fa04024e7534c1b15a91c5bd93ea1732a232a53d890b5e60806ab3cc6850"
     end
   end
 
