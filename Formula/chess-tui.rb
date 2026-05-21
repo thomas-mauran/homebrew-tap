@@ -1,27 +1,27 @@
 class ChessTui < Formula
   desc "Play chess in your terminal 🦀"
   homepage "https://github.com/thomas-mauran/chess-tui"
-  version "2.7.0"
+  version "2.7.1"
   license "MIT"
   head "https://github.com/thomas-mauran/chess-tui.git", branch: "main"
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.0/chess-tui-2.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "466c065c8a7760ba8156c8a1f77562ad80133edfff1c7f0516722972a4af542d"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.1/chess-tui-2.7.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a1c1025863708aba014be0513cee00b20f33a71c60b7381eb87aa2399a103054"
     else
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.0/chess-tui-2.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "774d1c2df8037c489a7fd345e50d23f35e54feb8b11fa6db381ecb850ec1a460"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.1/chess-tui-2.7.1-x86_64-apple-darwin.tar.gz"
+      sha256 "49b3b8fe7b9a4c45b742f55b63b35f53dca56082790177758b2defa083cefff4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.0/chess-tui-2.7.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f2984a58be6ee03e034e625b3373e8df378680b75cccaea6436c8a1c11b3c7df"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.1/chess-tui-2.7.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "aee19296918964d9f51b2232edb4cd8b0d8288fe6ec3d0b32eae7c2f96a9f04a"
     else
-      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.0/chess-tui-2.7.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bd03fa04024e7534c1b15a91c5bd93ea1732a232a53d890b5e60806ab3cc6850"
+      url "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.1/chess-tui-2.7.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "aee19296918964d9f51b2232edb4cd8b0d8288fe6ec3d0b32eae7c2f96a9f04a"
     end
   end
 
